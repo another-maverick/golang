@@ -3,16 +3,17 @@ package main
 import "fmt"
 
 func main() {
+	res := foo()
 
-	f := foo()
-
-	fmt.Println(f())
-
+	res1 := res()
+	fmt.Println(res1)
 }
 
 func foo() func() int {
 
+	x := 0
 	return func() int {
-		return 1234
+		x++
+		return x
 	}
 }
