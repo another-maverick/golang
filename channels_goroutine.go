@@ -14,7 +14,7 @@ func main() {
 		}()
 	}
 
-	for j := 0; j <= 600; j++ {
+	for j := 0; j <= 650; j++ {
 		fmt.Println(j, <-c)
 	}
 }
