@@ -1,5 +1,6 @@
 package main
 
+// create a server by executing nc -lk 1234
 import (
 	"log"
 	"net"
