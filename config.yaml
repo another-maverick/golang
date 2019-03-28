@@ -1,0 +1,4 @@
+
+## yaml can carry comments
+enabled: True
+mypath: /usr/local/bin
