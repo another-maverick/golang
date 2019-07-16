@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4289643c-6abc-48f4-b6f2-0bb6a68a7f65" name="Default Changelist" comment="">
+    <list default="true" id="7833436e-9061-4dd0-b77c-7a9f2fdb23c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/playingWithCookies.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playingWithCookies.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../concurrency_3.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../understandingResposeWriter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../understandingResposeWriter/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,12 +19,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/understandingResponseWriter.go">
+        <entry file="file://$PROJECT_DIR$/playingWithCookies.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="39" column="63" lean-forward="true" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+            <state relative-caret-position="522">
+              <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
               <folding>
-                <element signature="e#14#43#0" expanded="true" />
+                <element signature="e#14#55#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,23 +46,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/understandingResponseWriter.go" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/understandingResposeWriter.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/playingWithCookies.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
-    <option name="y" value="288" />
+    <option name="x" value="29" />
+    <option name="y" value="227" />
     <option name="width" value="1600" />
     <option name="height" value="1000" />
   </component>
@@ -70,8 +66,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="understandingResposeWriter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="understandingResposeWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="playingWithCookies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="playingWithCookies" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -103,25 +99,25 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="go build understandingResponseWriter.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="understandingResposeWriter" />
+    <configuration name="go build playingWithCookies.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="playingWithCookies" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/understandingResponseWriter.go" />
+      <filePath value="$PROJECT_DIR$/playingWithCookies.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build understandingResponseWriter.go" />
+        <item itemvalue="Go Build.go build playingWithCookies.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="288" width="1600" height="1000" extended-state="0" />
+    <frame x="29" y="227" width="1600" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24967907" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24967907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -130,7 +126,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32929516" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32929516" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -145,12 +141,12 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/understandingResponseWriter.go">
+    <entry file="file://$PROJECT_DIR$/playingWithCookies.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="39" column="63" lean-forward="true" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+        <state relative-caret-position="522">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
           <folding>
-            <element signature="e#14#43#0" expanded="true" />
+            <element signature="e#14#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
