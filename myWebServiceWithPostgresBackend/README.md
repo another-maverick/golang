@@ -8,15 +8,16 @@ create user <webservice>;
 2. Create a postgres database
 create database <webservice>;
 
+```
 postgres=# create user webservice;
 CREATE ROLE
 postgres=# create database webservice;
 CREATE DATABASE
-
+```
 
 Create a SQL file that will be used to create a table
 
-
+```
 cat webservice_posts.sql
 create table posts (
     id serial primary key,
@@ -24,11 +25,14 @@ create table posts (
             author varchar(255)
             
 );
+```
 
 Execute a psql command to create the table
 
+```
 psql -U webservice -f webservice_posts.sql -d webservice
 CREATE TABLE
+```
 
 ###### Start the webservice #########
 
@@ -38,15 +42,18 @@ Now the database is created. Now start the go webservice which is listening on p
 
 check the table rows before making changes
 
+```shell
 webservice=# select * from posts;
  id | content | author
  ----+---------+--------
  (0 rows)
+```
 
  Execute a POST request via curl command to add an entry in the DB
 
  curl -k -i -v -X POST -H "Content-Type: application/json" -d '{"content": "Random Post Content", "author": "Maverick"}' http://127.0.0.1:12345/post/
 
+```shell
 Note: Unnecessary use of -X or --request, POST is already inferred.
  *   Trying 127.0.0.1...
  *   * TCP_NODELAY set
@@ -66,11 +73,13 @@ Note: Unnecessary use of -X or --request, POST is already inferred.
  *   < Content-Length: 0
  *   Content-Length: 0
  *
+```
 
  Now check the DB again
+ ```shell
  webservice=# select * from posts;
   id |       content       |  author
   ----+---------------------+----------
     1 | Random Post Content | Maverick
-
+```
 
